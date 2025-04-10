@@ -2,7 +2,10 @@
 
 @plugin '@tailwindcss/typography';
 @plugin '@tailwindcss/forms';
-
+@import "tailwindcss";
+@plugin "daisyui" {
+  themes: light --default, dark --prefersdark, valentine;
+}
 
 @theme {
   /* Her tilføjes theme variable // tokens */
